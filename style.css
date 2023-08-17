@@ -1,81 +1,84 @@
 *{
-    margin: 0;
-    padding: 0;
+  margin: 0;
+  padding: 0;
 }
 body{
-    width: 703px;
-    height: 794px;
-    background-color: rgb(240, 234, 234);
-    font-family: Arial, Helvetica, sans-serif;
-    display: flex;
-    flex-direction: row;
-    justify-content: flex-start;
+  width: 703px;
+  height: 794px;
+  background-color: rgb(240, 234, 234);
+  font-family: Arial, Helvetica, sans-serif;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
 }
 ul{
-    list-style-type: none;
-    width: 100%;
-    margin-top: 20px;
-    margin-left: 50px;
+  list-style-type: none;
+  width: 100%;
+  margin-top: 20px;
+  margin-left: 50px;
 }
 ul li{
-    display: inline-block;
-    padding: 10px;
-    margin-right: 10px;
+  display: inline-block;
+  padding: 10px;
+  margin-right: 10px;
 }
 ul li:last-child{
-    margin-right: 0;
+  margin-right: 0;
 }
 ul li a{
-    text-decoration: none;
-    color: black;
-    font-family: Arial, Helvetica, sans-serif;
+  text-decoration: none;
+  color: black;
+  font-family: Arial, Helvetica, sans-serif;
 }
-ul li:nth-child(5){
-    position: absolute;
-    right: 510px;
+.coffee_cup{
+  position: absolute;
+  right: 750px;
 }
 ul li:nth-child(6){
-    position: absolute;
-    right: 420px;
+  position: absolute;
+  right: 510px;
 }
 ul li:nth-child(7){
-    position: absolute;
-    right: 310px;
+  position: absolute;
+  right: 420px;
+}
+ul li:nth-child(8){
+  position: absolute;
+  right: 310px;
 }
 .fa-bars {
-    position: absolute;
-    right: 140px;
-  }
-  .fa-magnifying-glass{
-    position: absolute;
-    right: 220px;
-  }
-  h1{
-    font-family: 'El Messiri', sans-serif;
-    font-weight: 400;
-    margin-left: 50px;
-    margin-top: 200px;
-  }
-  p{
-    font-family: Arial, Helvetica, sans-serif;
-    line-height: 1.5;
-    margin-left: 50px;
-    margin-top: 40px;
-  }
-  button{
-    padding: 5px;
-    cursor: pointer;
-  }
-  .button1{
-    color: #fff;
-    background-color: #000;
-    margin-left: 50px;
-    margin-top: 40px;
-    margin-right: 10px;
-  }
-  .button2{
-    color: #000;
-    background-color: #fff;
-    border: 1px solid red;
-  }
-
+  position: absolute;
+  right: 140px;
+}
+.fa-magnifying-glass{
+  position: absolute;
+  right: 220px;
+}
+h1{
+  font-family: 'El Messiri', sans-serif;
+  font-weight: 400;
+  margin-left: 50px;
+  margin-top: 200px;
+}
+p{
+  font-family: Arial, Helvetica, sans-serif;
+  line-height: 1.5;
+  margin-left: 50px;
+  margin-top: 40px;
+}
+button{
+  padding: 5px;
+  cursor: pointer;
+}
+.button1{
+  color: #fff;
+  background-color: #000;
+  margin-left: 50px;
+  margin-top: 40px;
+  margin-right: 10px;
+}
+.button2{
+  color: #000;
+  background-color: #fff;
+  border: 1px solid red;
+}
