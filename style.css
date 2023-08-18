@@ -3,19 +3,55 @@
   padding: 0;
 }
 body{
-  width: 703px;
-  height: 794px;
-  background-color: rgb(240, 234, 234);
+  width: 1440px;
+  height: 752px;
+  background-color: #F4F1EE;
   font-family: Arial, Helvetica, sans-serif;
   display: flex;
   flex-direction: row;
   justify-content: flex-start;
 }
-ul{
-  list-style-type: none;
-  width: 100%;
-  margin-top: 20px;
-  margin-left: 50px;
+.menu-left{
+  position: absolute;
+  width: 400px;
+  height: 29px;
+  top: 45px;
+  left: 165px;
+}
+.coffee_icon{
+  position: absolute;
+  width: 65px;
+  height: 53px;
+  top: 33px;
+  left: 687px;
+}
+.menu-right{
+  position: absolute;
+  width: 255px;
+  height: 22px;
+  top: 48px;
+  left: 830px;
+}
+.magnifying-glass_bars{
+  position: absolute;
+  width: 118px;
+  height: 26.9px;
+  top: 46px;
+  left: 1157px;
+  display: flex;
+  justify-content: space-between;
+}
+.magnifying-glass{
+  width: 15px;
+  height: auto;
+  top: 46px;
+  left: 1175.73px;
+}
+.bars{
+  width: 20px;
+  height: auto;
+  top: 52px;
+  left: 1248px;
 }
 ul li{
   display: inline-block;
@@ -28,57 +64,69 @@ ul li:last-child{
 ul li a{
   text-decoration: none;
   color: black;
-  font-family: Arial, Helvetica, sans-serif;
 }
-.coffee_cup{
-  position: absolute;
-  right: 750px;
+.coffee_icon{
+  display: inline-block;
 }
-ul li:nth-child(6){
+.main_text{
   position: absolute;
-  right: 510px;
-}
-ul li:nth-child(7){
-  position: absolute;
-  right: 420px;
-}
-ul li:nth-child(8){
-  position: absolute;
-  right: 310px;
-}
-.fa-bars {
-  position: absolute;
-  right: 140px;
-}
-.fa-magnifying-glass{
-  position: absolute;
-  right: 220px;
+  width: 646px;
+  height: 136px;
+  top: 254px;
+  left: 156px;
 }
 h1{
-  font-family: 'El Messiri', sans-serif;
+  font-family: 'ZCOOL XiaoWei', sans-serif;
   font-weight: 400;
-  margin-left: 50px;
-  margin-top: 200px;
+  font-size: 45px;
+  line-height: 70px;
+  letter-spacing: 4%;
+}
+.second_text{
+  position: absolute;
+  width: 500px;
+  height: 93px;
+  top: 423px;
+  left: 156px;
 }
 p{
-  font-family: Arial, Helvetica, sans-serif;
-  line-height: 1.5;
-  margin-left: 50px;
-  margin-top: 40px;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 30px;
+  letter-spacing: 4%;
 }
-button{
-  padding: 5px;
-  cursor: pointer;
+.buttons{
+  position: absolute;
+  width: 250px;
+  height: 41px;
+  top: 571px;
+  left: 156px;
+  border: 1px;
+  display: flex;
+  justify-content: space-between;
 }
 .button1{
+  width: 120px;
+  height: 41px;
+  top: 571px;
+  left: 156px;
   color: #fff;
   background-color: #000;
-  margin-left: 50px;
-  margin-top: 40px;
-  margin-right: 10px;
 }
 .button2{
+  width: 120px;
+  height: 41px;
+  top: 571px;
+  left: 315px;
   color: #000;
   background-color: #fff;
-  border: 1px solid red;
+  border: 1px solid #D48A5C;
+}
+.coffee_heart{
+  position: absolute;
+  width: 477px;
+  height: 506px;
+  top: 175px;
+  left: 798px;
 }
