@@ -1,38 +1,38 @@
-*{
+* {
   margin: 0;
   padding: 0;
 }
-body{
+body {
   width: 1440px;
-  height: 752px;
-  background-color: #F4F1EE;
+  height: 1400px;
+  background-color: #f4f1ee;
   font-family: Arial, Helvetica, sans-serif;
   display: flex;
   flex-direction: row;
   justify-content: flex-start;
 }
-.menu-left{
+.menu-left {
   position: absolute;
   width: 400px;
   height: 29px;
   top: 45px;
   left: 165px;
 }
-.coffee_icon{
+.coffee_icon {
   position: absolute;
   width: 65px;
   height: 53px;
   top: 33px;
   left: 687px;
 }
-.menu-right{
+.menu-right {
   position: absolute;
   width: 255px;
   height: 22px;
   top: 48px;
   left: 830px;
 }
-.magnifying-glass_bars{
+.magnifying-glass_bars {
   position: absolute;
   width: 118px;
   height: 26.9px;
@@ -41,62 +41,62 @@ body{
   display: flex;
   justify-content: space-between;
 }
-.magnifying-glass{
+.magnifying-glass {
   width: 15px;
   height: auto;
   top: 46px;
   left: 1175.73px;
 }
-.bars{
+.bars {
   width: 20px;
   height: auto;
   top: 52px;
   left: 1248px;
 }
-ul li{
+ul li {
   display: inline-block;
   padding: 10px;
   margin-right: 10px;
 }
-ul li:last-child{
+ul li:last-child {
   margin-right: 0;
 }
-ul li a{
+ul li a {
   text-decoration: none;
   color: black;
 }
-.coffee_icon{
+.coffee_icon {
   display: inline-block;
 }
-.main_text{
+.main_text {
   position: absolute;
   width: 646px;
   height: 136px;
   top: 254px;
   left: 156px;
 }
-h1{
-  font-family: 'ZCOOL XiaoWei', sans-serif;
+h1 {
+  font-family: "ZCOOL XiaoWei", sans-serif;
   font-weight: 400;
   font-size: 45px;
   line-height: 70px;
   letter-spacing: 4%;
 }
-.second_text{
+.second_text {
   position: absolute;
   width: 500px;
   height: 93px;
   top: 423px;
   left: 156px;
 }
-p{
-  font-family: 'Open Sans', sans-serif;
+p {
+  font-family: "Open Sans", sans-serif;
   font-weight: 400;
   font-size: 18px;
   line-height: 30px;
   letter-spacing: 4%;
 }
-.buttons{
+.buttons {
   position: absolute;
   width: 250px;
   height: 41px;
@@ -106,7 +106,7 @@ p{
   display: flex;
   justify-content: space-between;
 }
-.button1{
+.button1 {
   width: 120px;
   height: 41px;
   top: 571px;
@@ -114,19 +114,91 @@ p{
   color: #fff;
   background-color: #000;
 }
-.button2{
+.button2 {
   width: 120px;
   height: 41px;
   top: 571px;
   left: 315px;
   color: #000;
   background-color: #fff;
-  border: 1px solid #D48A5C;
+  border: 1px solid #d48a5c;
 }
-.coffee_heart{
+.coffee_heart {
   position: absolute;
   width: 477px;
   height: 506px;
   top: 175px;
   left: 798px;
+}
+.latte-coffee-cup1{
+  position: relative;
+  display: inline-block;
+  top: 800px;
+  left: 175px;
+}
+.latte-coffee-cup1 img,
+.coffee_image img,
+.latte-coffee-cup2 img{
+  position: absolute;
+  width: 350px;
+  height: 256px;
+  top: 0;
+  left: 0;
+  box-shadow: -20px 20px #D48A5C;
+}
+.cup1_backg,
+.coffee_image_backg,
+.cup2_backg{
+  position: relative;
+  width: 199px;
+  height: 81.425px;
+}
+.cup1_text1,
+.coffee_image_text1,
+.cup2_text1{
+  position: absolute;
+  top: 16px;
+  left: 16px;
+  color: #fff;
+  font-family: "ZCOOL XiaoWei", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  letter-spacing: 0.56px;
+}
+.cup1_text2,
+.coffee_image_text2,
+.cup2_text2{
+  position: absolute;
+  top: 32px;
+  left: 16px;
+  color: #000;
+  font-family: "ZCOOL XiaoWei", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  letter-spacing: 0.56px;
+}
+.cup1_text3,
+.coffee_image_text3,
+.cup2_text3{
+  position: absolute;
+  width: 195px;
+  top: 201px;
+  left: 16px;
+  color: #FFF;
+  font-family: "Open Sans", sans-serif;
+  font-size: 10px;
+  font-weight: 400;
+  letter-spacing: 0.4px;
+}
+.coffee_image{
+  position: relative;
+  display: inline-block;
+  top: 800px;
+  left: 370px;
+}
+.latte-coffee-cup2{
+  position: relative;
+  display: inline-block;
+  top: 800px;
+  left: 565px;
 }
