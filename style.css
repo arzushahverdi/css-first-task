@@ -24,6 +24,7 @@ body {
   height: 53px;
   top: 33px;
   left: 687px;
+  cursor: pointer;
 }
 .menu-right {
   position: absolute;
@@ -32,11 +33,12 @@ body {
   top: 48px;
   left: 830px;
 }
-.magnifying-glass_bars {
+.magnifying-glass,
+.bars{
   position: absolute;
   width: 118px;
   height: 26.9px;
-  top: 46px;
+  top: 60px;
   left: 1157px;
   display: flex;
   justify-content: space-between;
@@ -44,14 +46,16 @@ body {
 .magnifying-glass {
   width: 15px;
   height: auto;
-  top: 46px;
+  top: 60px;
   left: 1175.73px;
+  cursor: pointer;
 }
 .bars {
   width: 20px;
   height: auto;
-  top: 52px;
+  top: 60px;
   left: 1248px;
+  cursor: pointer;
 }
 ul li {
   display: inline-block;
@@ -113,6 +117,7 @@ p {
   left: 156px;
   color: #fff;
   background-color: #000;
+  cursor: pointer;
 }
 .button2 {
   width: 120px;
@@ -122,6 +127,7 @@ p {
   color: #000;
   background-color: #fff;
   border: 1px solid #d48a5c;
+  cursor: pointer;
 }
 .coffee_heart {
   position: absolute;
