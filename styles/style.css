@@ -7,8 +7,9 @@
 }
 .container{
   width: 1340px;
-  height: 1240px;
+  height: auto;
   background-color: #f4f1ee;
+  margin: 0 auto;
 }
 header{
   display: flex;
@@ -30,7 +31,8 @@ header{
   left: 650px;
   text-align: center;
 }
-.coffee_icon a {
+.coffee_icon h1 {
+  position: relative;
   text-decoration: none;
   color: #000;
   font-family: "Aclonica", sans-serif;
@@ -124,24 +126,28 @@ p {
   display: flex;
   justify-content: space-between;
 }
-.button1 a button{
+.button1,
+.button2 {
+  display: inline-block;
+  outline: none;
+}
+.button1 a button,
+.button2 a button {
   width: 120px;
   height: 41px;
   top: 571px;
+  cursor: pointer;
+}
+.button1 a button{
   left: 156px;
   color: #fff;
   background-color: #000;
-  cursor: pointer;
 }
 .button2 a button{
-  width: 120px;
-  height: 41px;
-  top: 571px;
   left: 315px;
   color: #000;
   background-color: #fff;
   border: 1px solid #d48a5c;
-  cursor: pointer;
 }
 .coffee_heart {
   position: absolute;
@@ -150,6 +156,7 @@ p {
   top: 175px;
   left: 798px;
 }
+/*
 .latte-coffee-cup1 {
   position: relative;
   display: inline-block;
@@ -222,3 +229,5 @@ p {
   top: 800px;
   left: 565px;
 }
+*/
+
