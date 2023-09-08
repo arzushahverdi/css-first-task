@@ -7,7 +7,6 @@
 }
 .container {
   width: 1340px;
-  height: auto;
   background-color: #f4f1ee;
   margin: 0 auto;
 }
@@ -156,77 +155,106 @@ nav {
   top: 175px;
   left: 798px;
 }
-/*
-.latte-coffee-cup1 {
-  position: relative;
-  display: inline-block;
-  top: 800px;
-  left: 175px;
+
+.cards {
+  display: flex;
+  justify-content: center;
+  margin: 150px 0;
 }
-.latte-coffee-cup1 img,
-.coffee_image img,
-.latte-coffee-cup2 img {
-  position: absolute;
-  width: 350px;
-  height: 256px;
-  top: 0;
-  left: 0;
+.card {
+  margin: 20px;
+}
+.card img {
   box-shadow: -20px 20px #d48a5c;
 }
-.cup1_backg,
-.coffee_image_backg,
-.cup2_backg {
-  position: relative;
-  width: 199px;
-  height: 81.425px;
-}
-.cup1_text1,
-.coffee_image_text1,
-.cup2_text1 {
+svg {
   position: absolute;
-  top: 16px;
-  left: 16px;
+  top: 850px;
+}
+.svg1 {
+  left: 106px;
+}
+.svg2 {
+  left: 496px;
+}
+.svg3 {
+  left: 886px;
+}
+.firsttext {
+  position: absolute;
+  top: 850px;
   color: #fff;
   font-family: "ZCOOL XiaoWei", sans-serif;
   font-size: 14px;
+  font-style: normal;
   font-weight: 400;
+  line-height: 65px;
   letter-spacing: 0.56px;
+  margin-left: 15px;
 }
-.cup1_text2,
-.coffee_image_text2,
-.cup2_text2 {
+.secondtext {
   position: absolute;
-  top: 32px;
-  left: 16px;
-  color: #000;
+  top: 865px;
+  color: #232020;
   font-family: "ZCOOL XiaoWei", sans-serif;
   font-size: 14px;
+  font-style: normal;
   font-weight: 400;
+  line-height: 65px;
   letter-spacing: 0.56px;
+  margin-left: 15px;
 }
-.cup1_text3,
-.coffee_image_text3,
-.cup2_text3 {
+
+.card p {
   position: absolute;
-  width: 195px;
-  top: 201px;
-  left: 16px;
+  top: 1050px;
   color: #fff;
   font-family: "Open Sans", sans-serif;
   font-size: 10px;
+  font-style: normal;
   font-weight: 400;
+  line-height: 10px;
   letter-spacing: 0.4px;
+  margin-left: 15px;
 }
-.coffee_image {
-  position: relative;
-  display: inline-block;
-  top: 800px;
-  left: 370px;
+
+#coffee_top_view {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background-image: url(/assets/images/coffee-beans-top-view-white-background-space-text\ 1.png);
+  width: 1340px;
+  height: 729px;
 }
-.latte-coffee-cup2 {
-  position: relative;
-  display: inline-block;
-  top: 800px;
-  left: 565px;
+
+.viewtext h1,
+.viewtext p {
+  margin-bottom: 20px;
 }
-*/
+
+.viewtext h1 {
+  font-family: "ZCOOL XiaoWei", sans-serif;
+  font-size: 55px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 65px;
+  letter-spacing: 2.2px;
+}
+.viewtext p,
+.viewtext button {
+  font-family: "Open Sans", sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 26px;
+  letter-spacing: 0.64px;
+}
+
+.viewtext button {
+  width: 152px;
+  color: #fff;
+  background-color: #000;
+  padding: 12px 20px;
+  cursor: pointer;
+}
