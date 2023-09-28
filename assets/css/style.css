@@ -263,78 +263,18 @@ svg {
 .popular-product {
   background: #f6f2ee;
 }
+
 .product-info {
   display: flex;
   flex-direction: column;
   align-items: center;
   text-align: center;
+  margin: 100px;
 }
 
-.product-group {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
-  justify-content: flex-start;
-}
-
-.Vicaragua,
-.Espresso,
-.Ethiopia {
-  flex-basis: calc(50% - 10px);
-  margin-bottom: 20px;
-  text-align: center;
-  display: flex;
-  align-items: flex-start;
-  margin-left: 10px; /* Sol kenar boşluğu ekler */
-  margin-top: 10px;
-}
-.Vicaragua img,
-.Espresso img,
-.Ethiopia img {
-  position: relative;
-  max-width: 100%;
-  height: auto;
-  border-radius: 50%;
-}
-
-.Vicaragua .product_text,
-.Espresso .product_text,
-.Ethiopia .product_text {
-  position: absolute;
-  margin: 5px 0;
-  display: inline-block;
-  margin-top: 30px;
-  margin-left: 180px;
-  color: #000;
-  font-family: "ZCOOL XiaoWei", sans-serif;
-  font-size: 30px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: 65px;
-  letter-spacing: 1.2px;
-}
-
-.Vicaragua p:last-child,
-.Espresso p:last-child,
-.Ethiopia p:last-child {
-  color: #d48a5c;
-  text-align: center;
-  font-family: "Open Sans", sans-serif;
-  font-size: 20px;
-  font-style: normal;
-  font-weight: 600;
-  line-height: 26px;
-  letter-spacing: 0.8px;
-  margin-top: 85px;
-  margin-left: 312px;
-}
-
-.product {
+.product-info a button {
   width: 165px;
   height: 42px;
-  margin-top: 100px;
-  margin-bottom: 20px;
-  padding: 10px 17px;
   text-align: center;
   color: #fff;
   background-color: #000;
@@ -348,7 +288,7 @@ svg {
   cursor: pointer;
 }
 .product-info h1 {
-  margin-bottom: 50px;
+  margin-top: 14px;
   color: #232020;
   text-align: center;
   font-family: "ZCOOL XiaoWei", sans-serif;
@@ -357,6 +297,146 @@ svg {
   font-weight: 400;
   line-height: 65px;
   letter-spacing: 2.2px;
+}
+.product-group {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.Vicaragua1,
+.Espresso1,
+.Ethiopia1 {
+  display: flex;
+  margin-left: 117px;
+  margin-bottom: 100px;
+  width: 500px;
+}
+.Vicaragua1_group,
+.Espresso1_group,
+.Ethiopia1_group {
+  position: relative;
+  top: 70px;
+  left: 100px;
+  border: 3px solid #414141;
+  border-left: 0;
+  background: rgba(96, 58, 45, 0);
+  width: 400px;
+  height: 114px;
+  text-align: center;
+}
+.Vicaragua1_group .product_text,
+.Espresso1_group .product_text,
+.Ethiopia1_group .product_text {
+  position: absolute;
+  color: #000;
+  margin-left: 35px;
+  font-family: "ZCOOL XiaoWei", sans-serif;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 65px;
+  letter-spacing: 1.2px; 
+}
+.Vicaragua1_group .product_price,
+.Espresso1_group .product_price,
+.Ethiopia1_group .product_price {
+  color: #d48a5c;
+  text-align: center;
+  font-family: "Open Sans", sans-serif;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 26px;
+  letter-spacing: 0.8px;
+  margin: 60px 0 0 300px;
+}
+.Vicaragua1_img img {
+  position: absolute;
+  border-radius: 50%;
+  top: 2377px;
+  left: 80px;
+}
+
+.Vicaragua2,
+.Espresso2,
+.Ethiopia2 {
+  display: flex;
+  margin-left: 160px;
+  margin-right: 100px;
+}
+.Vicaragua2_group,
+.Espresso2_group,
+.Ethiopia2_group {
+  position: relative;
+  top: 70px;
+  border: 3px solid #414141;
+  border-left: 0;
+  background: rgba(96, 58, 45, 0);
+  width: 400px;
+  height: 114px;
+  text-align: center;
+}
+.Vicaragua2_group .product_text,
+.Espresso2_group .product_text,
+.Ethiopia2_group .product_text {
+  position: absolute;
+  color: #000;
+  margin-left: 35px;
+  font-family: "ZCOOL XiaoWei", sans-serif;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 65px;
+  letter-spacing: 1.2px;
+}
+.Vicaragua2_group .product_price,
+.Espresso2_group .product_price,
+.Ethiopia2_group .product_price {
+  color: #d48a5c;
+  text-align: center;
+  font-family: "Open Sans", sans-serif;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 26px;
+  letter-spacing: 0.8px;
+  margin: 60px 0 0 300px;
+}
+.Vicaragua2_img img {
+  position: absolute;
+  border-radius: 50%;
+  top: 2377px;
+  left: 705px;
+}
+
+.Espresso1_img img {
+  position: absolute;
+  border-radius: 50%;
+  top: 2592px;
+  left: 80px;
+}
+
+.Espresso2_img img {
+  position: absolute;
+  border-radius: 50%;
+  top: 2592px;
+  left: 705px;
+}
+.Ethiopia1_img img {
+  position: absolute;
+  border-radius: 50%;
+  top: 2807px;
+  left: 80px;
+}
+.Ethiopia2_img img {
+  position: absolute;
+  border-radius: 50%;
+  top: 2807px;
+  left: 705px;
+}
+.Ethiopia1_group,
+.Ethiopia2_group {
+  margin-bottom: 100px;
 }
 
 .coffee_machine {
@@ -414,10 +494,6 @@ svg {
   border-radius: 50%;
   background: linear-gradient(175deg, #7d4934 11.34%, #000 69.68%);
   box-shadow: -19px 0px 40px 0px rgba(0, 0, 0, 0.25);
-  -webkit-border-radius: 50%;
-  -moz-border-radius: 50%;
-  -ms-border-radius: 50%;
-  -o-border-radius: 50%;
 }
 
 .coffee_machine_img img {
